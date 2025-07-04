@@ -13,29 +13,6 @@ Features
 ✅ View list of all registered participants
 ✅ Thank you page after successful registration
 
-Project Structure
------------------
-EventManagement/
-├── Controllers/
-│   └── EventController.cs
-├── Models/
-│   ├── Event.cs
-│   ├── Registration.cs
-│   └── Passcode.cs
-├── Views/
-│   ├── Event/
-│   │   ├── Index.cshtml
-│   │   ├── Register.cshtml
-│   │   ├── Create.cshtml
-│   │   ├── Passcode.cshtml
-│   │   ├── RegisteredData.cshtml
-│   │   ├── ThankYou.cshtml
-│   │   └── Notfountt.cshtml
-├── wwwroot/
-│   └── css, js, images (static files)
-├── Program.cs
-├── Startup.cs
-└── EventManagement.csproj
 
 How to Run
 ----------
@@ -60,6 +37,51 @@ How to Run
 
    https://localhost:5001 (or the port shown in your console).
 
+
+Project Structure
+-----------------
+EventManagement/
+
+├── Controllers/
+
+│   └── EventController.cs
+
+├── Models/
+
+│   ├── Event.cs
+
+│   ├── Registration.cs
+
+│   └── Passcode.cs
+
+├── Views/
+
+│   ├── Event/
+
+│   │   ├── Index.cshtml
+
+│   │   ├── Register.cshtml
+
+│   │   ├── Create.cshtml
+
+│   │   ├── Passcode.cshtml
+
+│   │   ├── RegisteredData.cshtml
+
+│   │   ├── ThankYou.cshtml
+
+│   │   └── Notfountt.cshtml
+
+├── wwwroot/
+
+│   └── css, js, images (static files)
+
+├── Program.cs
+
+├── Startup.cs
+
+└── EventManagement.csproj
+
 Passcode for Event Creation
 ---------------------------
 To create a new event, you need to enter a valid passcode.  
@@ -79,10 +101,10 @@ Screenshots
 -----------
 You can add images here by uploading them to your repo (e.g., in a folder named "images") and then using markdown syntax:
 
-![Event List](images/event-list.png)
+![Event List](images/Events.png)
+![Register Page](images/New_event.png)
+![Passcode Page](images/passcodes-page.png)
 ![Register Page](images/register-page.png)
-![Passcode Page](images/passcode-page.png)
-![Create Event](images/create-event.png)
 ![Registered Data](images/registered-data.png)
 
 Technologies Used
