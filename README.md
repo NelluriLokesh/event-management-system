@@ -18,7 +18,7 @@ How to Run
 ----------
 1. Clone the repository:
 
-   git clone https://github.com/NelluriLokesh/EventManagement.git
+   git clone https://github.com/NelluriLokesh/event-management-system
 
 2. Navigate to the project folder:
 
